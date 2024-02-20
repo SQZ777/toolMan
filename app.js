@@ -1,7 +1,6 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import 'dotenv/config';
 import getChangedIp from './ipDetect/app.js'
-import fs from 'fs';
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.on('ready', async () => {
@@ -19,7 +18,6 @@ client.on('ready', async () => {
         console.log(`訊息送出失敗 錯誤訊息: ${error}`);
       }
     }
-    fs.writeFileSync('D://repos/toolMan/log.txt', new Date().toString());
   }, 5000);
 });
 
