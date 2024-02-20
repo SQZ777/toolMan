@@ -1,0 +1,22 @@
+@Authorization = NDk3Mzc4ODU3NTA3MDk0NTI4.GEMw1C.n91j9gUqURwGl_KuYMI5MImCGX8qooBsJe7RA4
+
+PATCH https://discord.com/api/v9/channels/1202057374018584586/messages
+Authorization: @Authorization
+Content-Type: 'application/json'
+
+HTTP/1.1 405  - Method Not Allowed
+date: Sun, 04 Feb 2024 02:15:36 GMT
+content-type: application/json
+content-length: 49
+connection: close
+set-cookie: __dcfduid=48740d20c30311ee917d4a611d6933d8; Expires=Fri, 02-Feb-2029 02:15:36 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax, __sdcfduid=48740d20c30311ee917d4a611d6933d8f00c6561904f817f4f3dcba97982c3354dc42892c7b09e8e04308214ee22fec5; Expires=Fri, 02-Feb-2029 02:15:36 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax, __cfruid=e8b0ad7ab3b6cb16c905ff1839e2bbe9c750c779-1707012936; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None, _cfuvid=qo79_NrD4tBbWd01YZMToo7TOMx3zpYAmaJn5c0xuWc-1707012936378-0-604800000; path=/; domain=.discord.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+via: 1.1 google
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Vf2%2BSUvznDtZvTjyiqd1S%2Fjf%2BtSM8pI6cW5JA07yMfvKEOdDvIeNBnSXhnh4KTye%2F9LMutcGX4GHqlGXtLoywN0Ek6EbWCcQtmjpNlHOk6wpaA4RfX2S%2BTkBwKuK"}],"group":"cf-nel","max_age":604800}
+nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+x-content-type-options: nosniff
+content-security-policy: frame-ancestors 'none'; default-src 'none'
+server: cloudflare
+cf-ray: 84ff6822fb5f075c-TPE

@@ -5,6 +5,8 @@ import fs from 'fs';
 async function getCurrentIp() {
     const result = axios.get('http://ifconfig.me').then((res) => {
         return res.data;
+    }).catch(error => {
+        console.log(`取得 IP 時遇到錯誤：${error}`);
     })
     return result;
 }
@@ -15,7 +17,7 @@ async function checkFile() {
     }
 }
 
-async function writeFile(content){
+async function writeFile(content) {
     fs.writeFileSync(process.env.IP_FILE, content);
 }
 
